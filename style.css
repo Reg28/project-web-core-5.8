@@ -6,6 +6,7 @@
 
 body {
 font-family: "Roboto", sans-serif;
+height: 100vh;
 }
 
 /* ----------------HEADER/NAVBAR-------- */
@@ -57,12 +58,12 @@ display: none;
 /* ----------------MAIN-------- */
 
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     background-color: #F8F8F8;
-    /* padding-top: 15px; */
     margin-top: 20px;
+    height: 100%;
 }
 .main__first-paragraph {
     text-align: justify;
@@ -110,6 +111,9 @@ display: none;
     overflow-x: auto;
     gap: 45px;
     padding-left: 16px;
+    background-color: #F8F8F8;
+
+    
 }
  .main__button {
     background-color: #F8F8F8;
@@ -203,6 +207,7 @@ a {
 .main__services-menu {
     display: flex;
     gap: 40px;
+
 }
 
 .main__button--active{ order: 1; }
@@ -220,6 +225,8 @@ a {
     gap: 32px;
     margin: 10px;
     padding: 20px;
+    background-color: #F8F8F8;
+
 }
 
 .main__first-paragraph,
@@ -255,8 +262,7 @@ background-color: #F8F8F8;
 .profile-icon,
 .header__first-divider,
 .header__second-divider,
-.header__third-divider,
-.main__h1::before {
+.header__third-divider {
     display: none;
 }
 
@@ -266,11 +272,6 @@ display: inline;
 }
 
 
-.section__services-menu {
-display: flex;
-flex-direction: column;
-
-}
 .main__h1 {
 position: absolute; 
 top: 3px;
@@ -349,6 +350,11 @@ background-color: #F8F8F8;
 .main__services-menu {
     display: flex;
     gap: 25px;
+}
+
+.repair-icon,
+.status-icon {
+    margin-right: 30px;
 }
 
 }
