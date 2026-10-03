@@ -64,6 +64,8 @@ main {
     background-color: #F8F8F8;
     margin-top: 20px;
     height: 100%;
+    padding: 0, 1rem;
+
 }
 .main__first-paragraph {
     text-align: justify;
@@ -101,7 +103,7 @@ main {
 
 }
 .main__image-container {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin-top: 20px;
 }
